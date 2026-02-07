@@ -1,0 +1,13 @@
+services:
+  analyzer:
+    build: .
+    container_name: animal_eye_analyzer
+    dockerfile: docker/Dockerfile  # 指向你的 Dockerfile 實際位置
+    environment:
+      # 告訴 Python 同時去這些資料夾找模組
+      - PYTHONPATH=/app:/app/segmentation
+    volumes:
+      # 將你電腦的資料夾掛載到容器內，這樣跑完的結果會直接出現在你電腦
+      - ./animal_images:/app/animal_images
+      - ./output_results:/app/output_results
+      - ./config.ini:/app/config.ini

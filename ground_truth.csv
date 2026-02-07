@@ -1,0 +1,7 @@
+Image_Name,Type,Obj_ID_1,Obj_ID_2,Expected_Dist
+000000018155.jpg,Individual,0,,60
+000000018155.jpg,Individual,1,,19
+000000018155.jpg,Pair,0,1,280
+000000114269.jpg,Individual,0,,33
+000000114269.jpg,Individual,1,,68
+000000114269.jpg,Pair,0,1,275
