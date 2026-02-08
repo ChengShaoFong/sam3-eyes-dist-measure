@@ -92,8 +92,8 @@ cd sam3-eyes-dist-measure
 ## :white_check_mark: 本地運行步驟
 ```
 # 1. 建立環境
-conda create -n sfc python=3.10
-conda activate sfc
+conda create -n {env} python=3.10
+conda activate {env}
 
 # 2. 安裝依賴
 pip install -r requirements.txt
@@ -149,6 +149,7 @@ docker compose up -d
       | `000000018155.jpg` | **Pair** | 0 | 1 | **280** |
       | `000000114269.jpg` | **Individual** | 0 | - | **33** |
        
+
 
 
 
