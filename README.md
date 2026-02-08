@@ -49,7 +49,7 @@
         2. **群體配對 (Inter-object)**：計算場景中不同物體間（如兩隻狗）的右眼相對距離。
 
 ### 🧠 系統架構圖 (Structure)
-
+<img src="data/architecture.png" alt="Architecture" width="600">
 
 
 ## :white_check_mark: 專案準備
