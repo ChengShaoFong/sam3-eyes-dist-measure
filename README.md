@@ -8,8 +8,8 @@
 
 #### 本專案是一個基於深度學習的自動化動物眼部特徵分析系統。結合 **YOLOv11** 的實例分割能力與 **SAM3 (Segment Anything Model 3)** 的提示詞精準邊緣提取技術，實現對動物瞳距（PD）精準測量 。
 <p align="center">
-  <img src="output_results/res_000000018155.jpg" height="300px" />
-  <img src="output_results/res_000000114269.jpg" height="300px" />
+  <img src="output_results/res_000000018155.jpg" height="150px" />
+  <img src="output_results/res_000000114269.jpg" height="150px" />
 </p>
 
 ## :white_check_mark: 技術棧說明
@@ -149,4 +149,5 @@ docker compose up -d
       | `000000018155.jpg` | **Pair** | 0 | 1 | **280** |
       | `000000114269.jpg` | **Individual** | 0 | - | **33** |
        
+
 
