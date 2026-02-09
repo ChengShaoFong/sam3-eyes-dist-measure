@@ -155,7 +155,7 @@ class AnimalMeasurementTool:
             json.dump(data, f, ensure_ascii=False, indent=4, cls=CustomEncoder)
 
     # ----------------------------------------------------------------------
-    # 執行進入點
+    # 執行
     # ----------------------------------------------------------------------
 
     def run(self):
@@ -195,7 +195,7 @@ class AnimalMeasurementTool:
         if self.show:
             cv2.destroyAllWindows()
             
-        # 修正這裡：將 saved_count 改為 saved_img_count
+        
         print(f"[INFO] 共掃描 {len(processed_data)} 張影像，輸出 {saved_img_count} 份視覺化結果。")
         self.save_final_json(processed_data)
 
